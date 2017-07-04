@@ -12,10 +12,6 @@ store.subscribe(() => {
     console.log('New state', store.getState());
 });
 
-store.dispatch(actions.addTodo('Tiffin'));
-store.dispatch(actions.setSearchText('ff'));
-store.dispatch(actions.toggleShowCompleted());
-
 // Load foundation
 // require('style!css!foundation-sites/dist/foundation.min.css');
 $(document).foundation();
